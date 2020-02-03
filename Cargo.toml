@@ -1,15 +1,16 @@
 [package]
 name = "concatenate"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["jam1garner <jam1garner@github.com>"]
 edition = "2018"
 description = "A simple tool for concatenating files"
 repository = "https://github.com/jam1garner/concat"
 license = "MIT"
+readme = "README.md"
 
 [[bin]]
 name = "concat"
 path = "src/main.rs"
 
 [dependencies]
-structopt = "0.3.9"
+structopt = ">=0.3.9"
